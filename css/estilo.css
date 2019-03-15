@@ -1,0 +1,111 @@
+:root {
+    --azul: #0264fb;
+    --naranja: #ffb03a;
+    --negro: #000000;
+    --gris: #4b4b4b;
+    --oscuro: #212121;
+    --blanco: #ffffff;
+    --fondo: #f7f8fb;
+}
+html {
+    box-sizing: border-box;
+    min-height: 100%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/*definimos EL TIPO DE LETRA A UTILIZAR*/
+p h1 h2{
+    font-family: 'Montserrat', sans-serif;
+}
+/* aplicamos el estilo al menu de navegacion y al encabezado*/
+.titulo{
+    text-align: center;
+}
+header{
+  
+    padding-bottom: 2rem;
+    text-align: right;
+    background-image: url(../assets/Path\ 2.png);
+}
+
+h1 {
+    color:var(--azul);
+}
+h2{
+    color:var(--azul);
+    text-align: center;
+}
+
+.barra a{
+    color: var(--blanco);
+    font-size:1.3rem;
+    text-decoration: none;
+    padding: 0 6px;
+}
+.barra a:last-of-type{
+    margin-right: 7rem;
+}
+.botonBarra{
+    background-color: var(--naranja);
+    padding: 15px 60px;
+}
+.contenidoAdentro{
+    display:block;
+    text-align: left;
+    padding: 5rem 0 5rem 5rem;
+    color: var(--blanco);
+}
+.primero{
+    margin-right: 5rem;
+}
+.imagen{
+    text-align: right;
+}
+
+/*aplicando el estilo a los items del contenido*/
+
+
+
+body{
+    background-color: var(--fondo)
+}
+ a{
+    text-decoration: none;
+    text-align: center;
+   
+}
+span{
+    color: var(--azul)
+}
+
+.opciones ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    background-color: var(--blanco);
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 1000px;
+    max-height:1600px;
+    margin: 2px auto;
+   
+}
+.items{
+    background-color: var(--azul);
+}
+.items a{
+    color: var(--blanco)
+}
+
+.caracteristicas ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+}
+
+footer{
+    background-color: var(--blanco)
+}
+
+
